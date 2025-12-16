@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>FabWorx Engineering - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+         :root {
+            --primary-blue: #1e3a8a;
+            --steel-blue: #3b82f6;
+            --accent-blue: #60a5fa;
+            --light-gray: #f8fafc;
+            --white: #ffffff;
+            --text-dark: #1e293b;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--white) 0%, var(--light-gray) 100%);
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+        
+        header {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1.3rem;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .logo-container {
+            margin-bottom: 1.3rem;
+        }
+        
+        .logo-img {
+            max-width: 100%;
+            height: auto;
+            width: 700px;
+        }
+        
+        h2 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            color: #000;
+        }
+        
+        .description {
+            margin-top: 2rem;
+        }
+        
+        p.description {
+            font-size: 0.9rem;
+            max-width: 600px;
+            margin-bottom: 2rem;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        p.mail {
+            font-weight: 900;
+            font-size: 1rem;
+            color: #1e3a8a;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <!-- Place your main-logo.jpeg in the same folder as this HTML file -->
+            <img src="images/main-logo-hr.jpeg" alt="FabWorx Engineering Logo" class="logo-img" />
+        </div>
+
+
+        <h2 class="coming-soon">The Future of Precision Engineering is Coming Soon !</h2>
+        <p class="description">"At FabWorx, we're engineering more than equipment, we're crafting your competitive advantage. Our enhanced service platform launches soon, delivering unmatched quality in pressure vessels, heat exchangers, and heavy fabrication. Get ready for
+            solutions that work as hard as you do."</p>
+
+        <p class="mail">info@fabworx.co.in</p>
+
+
+    </header>
+
+
+
+
+</body>
+
+</html>
